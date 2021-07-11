@@ -10,7 +10,7 @@ export default function Header () {
               {
                   header.map((el) =>
                       <Link to={`${el.route}`}>
-                          <p className='title-style' key={el.id}>{el.title}</p>
+                          <p className='title-style bold' key={el.id}>{el.title}</p>
                       </Link>
                   )
               }
